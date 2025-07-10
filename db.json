@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "1234567890",
+      "name": "Eliana Gomez",
+      "email": "gomez.eliana@gmail.com",
+      "phone": "3023541274",
+      "dateOfAdmission": "2008-10-10"
+    },
+    {
+      "id": "1234567899",
+      "name": "Mouse",
+      "email": "juanesteban@gmail.com",
+      "phone": "1234567899",
+      "dateOfAdmission": "2008-10-10"
+    }
+  ],
+  "admins": [
+    {
+      "user": "andrea",
+      "password": "andrea123",
+      "id": "0363"
+    },
+    {
+      "user": "david",
+      "password": "david123",
+      "id": "bec8"
+    },
+    {
+      "user": "pedro",
+      "password": "pedro123",
+      "id": "982f"
+    },
+    {
+      "user": "sebastian",
+      "password": "sebas123",
+      "id": "d7f4"
+    },
+    {
+      "user": "sharon",
+      "password": "sharon123",
+      "id": "c280"
+    }
+  ]
+}

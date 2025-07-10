@@ -1,0 +1,47 @@
+<section>
+    <div class="container">
+        <div class="back">←</div>
+        <h1>Agregar Nuevo Estudiante</h1>
+
+        <div class="profile-icon">
+            👤
+        </div>
+
+        <h2>Registrar Nuevo Estudiante</h2>
+
+        <div id="response">
+
+        </div>
+
+        <form id="form">
+            <div class="form-group">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" name="name" placeholder="Escribe el nombre completo">
+            </div>
+
+            <div class="form-group">
+                <label for="name">Documento de identidad</label>
+                <input type="text" id="doc" name="doc" placeholder="Escribe el documento">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="Escribe el correo">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" placeholder="Número de contacto">
+            </div>
+
+            <div class="form-group">
+                <label for="admission">Fecha de admisión</label>
+                <input type="date" id="admission" name="admission">
+            </div>
+
+            <div class="buttons">
+                <button type="button" onclick="addUser(this)" id="btn-save">Guardar</button>
+            </div>
+        </form>
+    </div>
+</section>

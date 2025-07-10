@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Gestion de usuarios</title>
+</head>
+
+<body>
+    <div class="layout">
+        <div class="sidebar">
+            <div>
+                <div class="title">CRUD OPERATIONS</div>
+
+                <div class="profile">
+                    <img src="./img/randomGuy.jpg" alt="Profile Image">
+                    <h3>Chico aleatorio</h3>
+                    <p>Administrador</p>
+                </div>
+
+                <nav class="nav">
+                    <a href="#"><i class="fas fa-home"></i>Inicio</a>
+                    <a href="#"><i class="fas fa-bookmark"></i>Curso</a>
+                    <a href="/users" data-link id="active" onclick="showUsers()"><i class="fas fa-user-graduate"></i>Usuarios</a>
+                    <a href="#"><i class="fas fa-dollar-sign"></i>Pago</a>
+                    <a href="#"><i class="fas fa-file-alt"></i>Reporte</a>
+                    <a href="#"><i class="fas fa-cog"></i>Configuración</a>
+                </nav>
+            </div>
+            <div class="logout">
+                <button id="close-session">Cerrar sesión</button>
+            </div>
+        </div>
+
+        <main id="content"></main>
+    </div>
+</body>
+<script src="./script.js" defer></script>
+
+</html>
