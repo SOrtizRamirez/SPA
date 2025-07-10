@@ -1,18 +1,11 @@
 {
   "users": [
     {
-      "id": "1234567890",
-      "name": "Eliana Gomez",
-      "email": "gomez.eliana@gmail.com",
-      "phone": "3023541274",
-      "dateOfAdmission": "2008-10-10"
-    },
-    {
-      "id": "1234567899",
-      "name": "Mouse",
-      "email": "juanesteban@gmail.com",
-      "phone": "1234567899",
-      "dateOfAdmission": "2008-10-10"
+      "name": "SHARON ORTIZ",
+      "email": "ortizramirezs@gmail.com",
+      "phone": "3023547812",
+      "dateOfAdmission": "2009-11-25",
+      "id": "1234567899"
     }
   ],
   "admins": [

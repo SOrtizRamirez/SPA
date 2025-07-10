@@ -40,7 +40,7 @@ async function navigate(href) {
     const route = url.pathname;
 
     if (!isAuth()) {
-        href = "/login"; // Redirect to login if not authenticated
+        history.pushState({}, "", "/login")
     }
 
     if (!routes[route]) {
@@ -203,10 +203,10 @@ async function deteleUser(id) {
 }
 
 // Load user info into form to edit
-async function downloadInfo(id) {  
+async function downloadInfo(id) {
     currentUserId = id;
     console.log(id);
-    
+
     try {
         const res = await fetch(`http://localhost:3000/users/${id}`);
         const data = await res.json();

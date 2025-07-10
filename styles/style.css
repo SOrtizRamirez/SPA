@@ -280,3 +280,15 @@ td i:hover {
 .bx {
     font-size: 1.5rem;
 }
+
+#response {
+    color: violet;
+}
+
+#error {
+    color: violet;
+}
+
+#results {
+    color: violet;
+}
